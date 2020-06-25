@@ -33,5 +33,5 @@ jobs:
         echo test, and deploy your project.
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@v1.3
-      with:
-          projectBaseDir: src
+      env:
+        SONAR_TOKEN: 1f39239ea1aa8627d6b30694d7f79cb35341e247
